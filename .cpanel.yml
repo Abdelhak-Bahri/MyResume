@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/user/public_html/myresume
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp portfolio-details $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
