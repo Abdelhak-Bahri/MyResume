@@ -4,5 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/abdelhak/public_html/myresume
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp portfolio-details.html $DEPLOYPATH
-    - /bin/cp -R forms $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
